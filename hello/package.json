@@ -14,6 +14,7 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-ios": "^6.2.0",
+    "cordova-plugin-camera": "^6.0.0",
     "cordova-plugin-device": "^2.1.0",
     "cordova-plugin-scanbot-sdk": "^4.16.2"
   },
@@ -25,7 +26,8 @@
       "cordova-plugin-scanbot-sdk": {
         "CAMERA_USAGE_DESCRIPTION": " "
       },
-      "cordova-plugin-device": {}
+      "cordova-plugin-device": {},
+      "cordova-plugin-camera": {}
     }
   }
 }
