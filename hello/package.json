@@ -13,11 +13,17 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "devDependencies": {
-    "cordova-ios": "^6.2.0"
+    "cordova-ios": "^6.2.0",
+    "cordova-plugin-scanbot-sdk": "^4.16.2"
   },
   "cordova": {
     "platforms": [
       "ios"
-    ]
+    ],
+    "plugins": {
+      "cordova-plugin-scanbot-sdk": {
+        "CAMERA_USAGE_DESCRIPTION": " "
+      }
+    }
   }
 }
